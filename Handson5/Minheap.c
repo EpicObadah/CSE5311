@@ -34,7 +34,6 @@ void push(MinHeap *heap, void *element);
 void* pop(MinHeap *heap);
 MinHeap* create_heap(int capacity, size_t indxSize, int (*compare)(const void*, const void*));
 int int_compare(const void *a, const void *b);
-void print_heap(MinHeap *heap);
 
 
 int main()
