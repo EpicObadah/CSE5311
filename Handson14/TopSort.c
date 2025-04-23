@@ -20,7 +20,6 @@ int stack[MAX_VERT];
 int top = -1;
 
 Node* createNode(int v);
-//Graph* createGraph(int vertices);
 void addEdge(Graph* graph, int from, int to);
 void push(int vertex);
 void topologicalSortU(Graph* graph, int v);
