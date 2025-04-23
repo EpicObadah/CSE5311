@@ -30,7 +30,6 @@ void topologicalSort(Graph* graph);
 int main()
 {
     int vert = 6;
-    //Graph* graph = createGraph(vert);
 
     Graph* graph = malloc(sizeof(Graph));
     graph->vertCount = vert;
