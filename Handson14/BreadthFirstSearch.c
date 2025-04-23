@@ -1,4 +1,4 @@
-// Professor said to do Breadthfirstsearch in the lecture, but he did not update the handson to say this.
+// Professor said to do Breadthfirstsearch in the lecture, but he did not update the handson to reflect that. 
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -44,7 +44,7 @@ int main()
         graph->adjList[i] = NULL;
         graph->visited[i] = 0;
     }
-
+    //I could not find the specific examples from the book, so I used a different example.
     addEdge(graph, 0, 1);
     addEdge(graph, 0, 2);
     addEdge(graph, 1, 3);
