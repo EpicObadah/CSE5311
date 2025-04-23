@@ -61,20 +61,7 @@ Node* createNode(int v)
     return newNode;
 }
 
-/*
-Graph* createGraph(int vertices)
-{
-    Graph* graph = malloc(sizeof(Graph));
-    graph->vertCount = vertices;
 
-    for(int i = 0; i < vertices; i++)
-    {
-        graph->adjList[i] = NULL;
-        graph->visited[i] = 0;
-    }
-    return graph;
-}
-*/
 void addEdge(Graph* graph, int from, int to)
 {
     Node* newNode = createNode(to);
