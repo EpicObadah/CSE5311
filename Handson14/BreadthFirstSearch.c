@@ -1,3 +1,5 @@
+// Professor said to do Breadthfirstsearch in the lecture, but he did not update the handson to say this.
+
 #include <stdio.h>
 #include <stdlib.h>
 
